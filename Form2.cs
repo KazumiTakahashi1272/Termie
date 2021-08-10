@@ -140,8 +140,8 @@ namespace Termie
 
             SaveFileDialog fileDialog1 = new SaveFileDialog();
 
-            fileDialog1.Title = "Save Log As";
-            fileDialog1.Filter = "Log files (*.log)|*.log|All files (*.*)|*.*";
+            fileDialog1.Title = "名前を付けて保存";
+            fileDialog1.Filter = "ログファイル(*.log)|*.log|All files (*.*)|*.*";
             fileDialog1.FilterIndex = 2;
             fileDialog1.RestoreDirectory = true;
 			fileDialog1.FileName = Settings.Option.LogFileName;

@@ -135,11 +135,11 @@ namespace Termie
 			}
             catch (IOException)
             {
-                StatusChanged(String.Format("{0} does not exist", Settings.Port.PortName));
+                StatusChanged(String.Format("{0} 存在しない", Settings.Port.PortName));
             }
             catch (UnauthorizedAccessException)
             {
-                StatusChanged(String.Format("{0} already in use", Settings.Port.PortName));
+                StatusChanged(String.Format("{0} 使用中", Settings.Port.PortName));
             }
             catch (Exception ex)
             {
@@ -152,7 +152,7 @@ namespace Termie
                 string p = _serialPort.Parity.ToString().Substring(0, 1);   //First char
                 string h = _serialPort.Handshake.ToString();
                 if (_serialPort.Handshake == Handshake.None)
-                    h = "no handshake"; // more descriptive than "None"
+                    h = "ハンドシェイクなし"; // more descriptive than "None"
 
                 StatusChanged(String.Format("{0}: {1} bps, {2}{3}{4}, {5}",
                     _serialPort.PortName, _serialPort.BaudRate,
@@ -160,7 +160,7 @@ namespace Termie
             }
             else
             {
-                StatusChanged(String.Format("{0} already in use", Settings.Port.PortName));
+                StatusChanged(String.Format("{0} 使用中", Settings.Port.PortName));
             }
         }
 
@@ -169,7 +169,7 @@ namespace Termie
         {
 			StopReading();
 			_serialPort.Close();
-            StatusChanged("connection closed");
+            StatusChanged("接続が閉じられました");
         }
 
         /// <summary> Get the status of the serial port. </summary>
