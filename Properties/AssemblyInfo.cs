@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Termie")]
-[assembly: AssemblyDescription("Termie is an open source clone of Termite.  It is useful for logging output from an RS232 communication device.")]
+[assembly: AssemblyTitle("TTY for C# Version")]
+[assembly: AssemblyDescription("RS-232の通信機器から出力されるログ出力を記録するのに便利です。")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("David McClurg")]
-[assembly: AssemblyProduct("Termie")]
-[assembly: AssemblyCopyright("Copyright © 2008. All Rights Reserved.")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("TTY")]
+[assembly: AssemblyCopyright("Copyright (c) 2021. All Rights Reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

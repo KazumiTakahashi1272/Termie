@@ -8,3 +8,13 @@ D:\Samples\CS\A Simple RS232 Terminal\termie\Termie\obj\Debug\Termie.Properties.
 D:\Samples\CS\A Simple RS232 Terminal\termie\Termie\obj\Debug\Termie.csproj.GenerateResource.Cache
 D:\Samples\CS\A Simple RS232 Terminal\termie\Termie\obj\Debug\Termie.exe
 D:\Samples\CS\A Simple RS232 Terminal\termie\Termie\obj\Debug\Termie.pdb
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.exe
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.pdb
+D:\Samples\Tutorial\Termie\bin\Debug\Termie.exe
+D:\Samples\Tutorial\Termie\bin\Debug\Termie.pdb
+D:\Samples\Tutorial\Termie\obj\Debug\ResolveAssemblyReference.cache
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.AboutBox.resources
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.Form1.resources
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.Form2.resources
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.Properties.Resources.resources
+D:\Samples\Tutorial\Termie\obj\Debug\Termie.csproj.GenerateResource.Cache
