@@ -40,8 +40,6 @@ namespace Termie
             splitContainer2.FixedPanel = FixedPanel.Panel2;
 
             AcceptButton = button5; //Send
-            CancelButton = button4; //Close
-
 			outputList_Initialize();
 
 			Settings.Read();
