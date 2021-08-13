@@ -641,7 +641,7 @@ namespace Termie
 		{
 			OpenFileDialog dialog = new OpenFileDialog();
 			dialog.RestoreDirectory = false;
-			dialog.Title = "Select a file";
+            dialog.Title = "ファイルの選択";
 			if (dialog.ShowDialog() == DialogResult.OK)
 			{
 				String text = System.IO.File.ReadAllText(dialog.FileName);
